@@ -43,7 +43,18 @@ def load_notes():
         with open(NOTES_FILE, "r", encoding="utf-8") as fh:
             data = json.load(fh)
             if isinstance(data, list):
-                return data
+                notes = []
+                for item in data:
+                    if not isinstance(item, dict):
+                        continue
+
+                    note = dict(item)
+                    title = note.get("title", "")
+                    content = note.get("content", "")
+                    note["title"] = title if isinstance(title, str) else str(title)
+                    note["content"] = content if isinstance(content, str) else str(content)
+                    notes.append(note)
+                return notes
     except (json.JSONDecodeError, OSError):
         pass
     return []
