@@ -8,7 +8,8 @@ A modern, professional desktop note-taking application built with Python and Tki
 
 ## 📸 Screenshots
 
-*(Add screenshot of your running application here)*
+<img width="1916" height="1079" alt="Screenshot 2026-05-03 183207" src="https://github.com/user-attachments/assets/6c656eec-17f1-4cbe-9df4-6e2d0e92ba90" />
+<img width="1913" height="1078" alt="Screenshot 2026-05-03 183121" src="https://github.com/user-attachments/assets/3efbb707-bc1d-4c26-8985-528451b50cbc" />
 
 ## ✨ Features
 
