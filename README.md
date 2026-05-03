@@ -1,4 +1,56 @@
-Here's a comprehensive GitHub description/README:
+# Notes Manager
+
+A modern desktop note-taking application built with Python and Tkinter. This application provides a simple and elegant way to manage your notes with a sleek, dark-themed interface.
+
+## Screenshots
+
+![Notes Manager Home](https://github.com/user-attachments/assets/3efbb707-bc1d-4c26-8985-528451b50cbc)
+*The main interface of the Notes Manager application.*
+
+![Viewing a Note](https://github.com/user-attachments/assets/6c656eec-17f1-4cbe-9df4-6e2d0e92ba90)
+*Viewing the content of a selected note.*
+
+## Features
+
+*   **Create, View, and Delete Notes**: Easily manage your notes with intuitive controls.
+*   **Keyboard Shortcuts**: Boost your productivity with shortcuts for common actions:
+    *   `Ctrl+N`: Create a new note.
+    *   `F5`: Refresh and view all notes.
+    *   `Delete`: Delete a selected note.
+*   **Automatic Saving**: Notes are automatically saved to `notes.json`, so you never lose your work.
+*   **Customizable Background**: Personalize the application by setting your own background image.
+*   **Dark-Themed UI**: A modern, easy-on-the-eyes dark theme for a pleasant user experience.
+
+## Tech Stack
+
+*   **Language**: Python
+*   **GUI Framework**: Tkinter
+*   **Image Library**: Pillow (for custom background support)
+
+## Getting Started
+
+To run this application on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/narendraborhade-creator/Notes-Manager-Task-2.git
+    cd Notes-Manager-Task-2
+    ```
+
+2.  **Install the dependencies:**
+    This project requires Python and the `Pillow` library.
+    ```sh
+    pip install Pillow
+    ```
+
+3.  **Run the application:**
+    ```sh
+    python main.py
+    ```
+
+## How It Works
+
+The application uses a simple JSON file (`notes.json`) to store and manage your notes. The Tkinter library provides the graphical user interface, allowing for a lightweight and cross-platform experience. The integration with the Pillow library enables easy customization of the app's background.Here's a comprehensive GitHub description/README:
 
 ---
 
