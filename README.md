@@ -158,8 +158,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Your Name - Narendra Borhadde Email: borhadenarendra35@gmail.com
 
-Project Link: [https://github.com/yourusername/notes-manager](https://github.com/yourusername/notes-manager)
-
+Project Link: https://github.com/narendraborhade-creator/Notes-Manager-Task-2
 ---
 
 ### ⭐ Show your support
