@@ -102,7 +102,7 @@ A modern, professional desktop note-taking application built with Python and Tki
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/notes-manager.git
+git clone https://github.com/narendraborhade-creator/Notes-Manager-Task-2.git
 cd notes-manager
 ```
 
